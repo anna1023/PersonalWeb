@@ -18,15 +18,6 @@
     background-size: cover ;
     background-position: center;
 }
-} 
-
-.background2{
-    width: 100%;
-    height : 100vh;
-    background-image:url(Purple2.avif);
-    background-size: cover ;
-    background-position: center;
-}
 
 .hello{
     color: #fff;
@@ -87,38 +78,20 @@
     font-size: 50px;
     font-weight: 600;
     text-align: center; 
-    position: relative;
+    position: absolute; 
+    bottom: 70%;
+    left: 30%;
 }
 
-.down{
-    top: 25%;
-    width: 100%;
-    position: absolute;
-}
-
-.down2{
-    top:15%;
-    width: 100%;
-    position: absolute;
-}
-
-.down3{
-    top:10%;
-    width: 100%;
-    position: absolute;
-}
-
-.right{
-    top: 15%;
-    position: absolute;
-}
 .transition{
     font-size: 20px;
     width:9%;
+    height: 90%;
     margin: auto;
-    margin-top: 0%;
     padding: 35px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .transition ul li {
@@ -151,11 +124,13 @@
 
 .fav{
     font-size: 20px;
-    width: 12% ;
+    width:16%;
+    height: 90%;
     margin: auto;
+    padding: 35px;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
 }
 
 .fav ul li {
@@ -167,85 +142,18 @@
 }
 
 table{
-    color:white;
+    color:#fff;
     border: 1px;
     border-collapse: collapse;
     width:45%;
 }
 
-td,th{
-    border: 1px solid #fff;
-    text-align: center;
+td,th,table{
+    border: 1px,solid #fff;
+    text-align: left;
     border-collapse: collapse;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 5%;
 }
-
-.table{
-    width: 50%;
-    left: 25%;
-    top: 25%;
-    position: absolute;
-}
-
-.funny:link {
-    color : white;
-}
-
-.funny:visited{
-    color: white;
-}
-
-.funny{
-    text-decoration: none;
-    color : white;
-}
-
-.video{
-    margin: auto;
-    margin-top: 10%;
-    width: 70%;
-}
-
-.audio{
-    margin: auto;
-    padding-top: 6%;
-    width: 25%;
-
-}
-
-.form{
-    color: white;
-    margin:auto;
-    width:25%;
-}
-
-.row{
-    display: flex;
-}
-
-.col{
-    flex: 33.33%;
-    padding: 20px;
-}
-
-.text{
-    color:white;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.button{
-    font-weight: bold;
-    text-align: center;
-    font-size: 40px;
-    width: 100%;
-    margin-top: 5%;
-}
-
-
-
 
 
 
